@@ -42,6 +42,10 @@
   justify-content: space-around;
   background-color: black;
   padding: 1em;
+  position: fixed; /* 固定定位 */
+  top: 0; /* 固定在頂部 */
+  width: 100%; /* 寬度設置為 100% */
+  z-index: 1000; /* 確保 Navbar 在其他元素之上 */
 }
 
 .navbar a {

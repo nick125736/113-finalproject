@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import ScrollButton from './ScrollButton';
 import Home from './c/Home';
 import Dog from './c/Dog';
 import Cat from './c/Cat';
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router={router}/>
+      <ScrollButton />
     </div>
   );
 }
